@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCE Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+            <a href="index.html"><img src="images/Logo Shivalik.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">COURSES</a></li>
+                    <li><a href="">CAMPUS</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <div class="text-box">
+            <h1>BEST ENGINEERING COLLEGE</h1>
+            <p>Shivalik College of Engineering is affiliated to Uttarakhand Technical University for Under-Graduate Engineering programmes and Uttarakhand Board of Technical Education Roorkee (U.B.T.E.R.) for Polytechnic (Diploma in Engineering) programmes</p>
+            <a href="" class="main-btn">Click Here To Know More</a>
+        </div>
+
+    </div>
+
+    <!-- COURSES -->
+    <div class="course">
+        <h1>COURSES</h1>
+        <p>Btech, BBA, B.Com, B.sc(Agriculture, Pharma), Diploma in pharmacy</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non molestiae voluptates doloribus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non molestiae voluptates doloribus.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non molestiae voluptates doloribus.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAMPUS -->
+    <div class="campus">
+        <h1>Our campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam veritatis eligendi veniam.</p>
+
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/campus 2.png">
+                <div class="layer">
+                    <h3>DEHRADUN</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/Shivalik-College-Campus.png">
+                <div class="layer">
+                    <h3>SELAQUI</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="images/uttarakhand.png">
+                <div class="layer">
+                    <h3>UTTARAKHAND</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FACALITIES -->
+    <div class="facalities">
+        <h1>Our Facalities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, molestiae? Ipsum, esse?</p>
+
+        <div class="row">
+            <div class="facalities-col">
+                <img src="images/Library of Shivalik College of Engineering Dehradun_Library.png">
+                <h3>APJ Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, et.</p>
+            </div>
+            <div class="facalities-col">
+                <img src="images/basketball.png">
+                <h3>Basketball</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, et.</p>
+            </div>
+            <div class="facalities-col">
+                <img src="images/gym.png">
+                <h3>GYM</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, et.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quia voluptatibus quisquam sit odio cumque.</p>
+        <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+
+
+
+    <!-- ------JAVA SCRIPT For Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
